@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>O Impacto do Minimalismo na Arquitetura - ArquiBlog</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">
+                <span>Arqui</span>Blog
+            </h1>
+        </div>
+
+        <i class="fa fa-bars menu-toggle"></i>
+
+        <ul class="nav">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    ArquiBlog
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Painel</a></li>
+                    <li><a href="#" class="logout">Sair</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="page-wrapper">
+
+        <div class="content clearfix">
+
+            <div class="main-content single">
+                <h1 class="post-title">O Impacto do Minimalismo na Arquitetura Residencial</h1>
+
+                <div class="post-content">
+                    <p>
+                        O minimalismo vai muito além de uma simples estética visual; é uma filosofia de projeto que prioriza a funcionalidade, espaços abertos e a redução do supérfluo na arquitetura contemporânea.
+                    </p>
+                    <p>
+                        A aplicação correta de materiais naturais como madeira, pedra e concreto aparente permite criar ambientes acolhedores e elegantes, sem a necessidade de excessos decorativos. Além disso, a luz natural desempenha papel fundamental na composição volumétrica do projeto.
+                    </p>
+                    <p>
+                        Ao projetar residências minimalistas, o arquiteto foca no bem-estar dos moradores, garantindo ambientes mais integrados, fáceis de manter e visualmente equilibrados.
+                    </p>
+                </div>
+            </div>
+
+            <div class="sidebar single">
+
+                <div class="section popular">
+                    <h2 class="section-title">Posts Populares</h2>
+
+                    <div class="post clearfix">
+                        <img src="img/img1.jpg" alt="Post Popular 1">
+                        <a href="#" class="title"><h4>Projetos de Arquitetura Moderna em 2026</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="img/img2.jpg" alt="Post Popular 2">
+                        <a href="#" class="title"><h4>Design de Interiores Sustentável</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="img/img3.jpg" alt="Post Popular 3">
+                        <a href="#" class="title"><h4>Uso de Iluminação Natural na Fachada</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="img/img4.jpg" alt="Post Popular 4">
+                        <a href="#" class="title"><h4>Tendências de Paisagismo Urbano</h4></a>
+                    </div>
+                </div>
+
+                <div class="section search">
+                    <h2 class="section-title">Pesquisar</h2>
+                    <form action="single.html" method="post">
+                        <input type="text" name="search-term" class="text-input" placeholder="Pesquisar artigos...">
+                    </form>
+                </div>
+
+                <div class="section topics">
+                    <h2 class="section-title">Categorias</h2>
+                    <ul>
+                        <li><a href="#">Arquitetura Residencial</a></li>
+                        <li><a href="#">Design de Interiores</a></li>
+                        <li><a href="#">Sustentabilidade</a></li>
+                        <li><a href="#">Urbanismo</a></li>
+                        <li><a href="#">Materiais & Inovação</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content clearfix">
+
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>Arqui</span>Blog</h1>
+                <p>
+                    O ArquiBlog é uma plataforma dedicada a compartilhar inspirações, técnicas e tendências sobre arquitetura, urbanismo e design de interiores.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; (69) 99999-9999</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; contato@arquiblog.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h2>Links Rápidos</h2>
+                <ul>
+                    <a href="#"><li>Eventos</li></a>
+                    <a href="#"><li>Equipe</li></a>
+                    <a href="#"><li>Galeria</li></a>
+                    <a href="#"><li>Termos e Condições</li></a>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-form">
+                <h2>Contato</h2>
+                <form action="single.html" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Seu e-mail...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Sua mensagem..."></textarea>
+                    <button type="submit" class="btn btn-big">
+                        <i class="fas fa-envelope"></i>
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; arquiblog.com | Projetado por ArquiBlog
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
