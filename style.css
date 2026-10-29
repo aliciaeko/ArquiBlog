@@ -599,7 +599,6 @@ header .menu-toggle {
     text-decoration: underline;
 }
 
-/* Caixa de Mensagens (Erro / Sucesso) */
 .msg {
     width: 100%;
     margin: 5px 0px 15px 0px;
@@ -621,15 +620,14 @@ header .menu-toggle {
     border: 1px solid #d6e9c6;
 }
 
-/* Responsividade para Telas Menores */
 @media only screen and (max-width: 934px) {
     .auth-content {
         width: 60%;
     }
 }
-
 @media only screen and (max-width: 500px) {
     .auth-content {
         width: 90%;
     }
 }
+

@@ -1,0 +1,82 @@
+.admin-wrapper {
+    display: flex;
+    height: calc(100vh - 75px);
+    position: relative;
+}
+
+.admin-wrapper .left-sidebar {
+    width: 300px;
+    height: 100%;
+    background: white;
+    border-right: 1px solid #eaeded;
+}
+
+.admin-wrapper .left-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid #eaeded;
+    color: #444;
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+    background: rgb(223, 225, 223);
+    transition: 0.3s;
+}
+
+.admin-wrapper .admin-content {
+    flex: 1;
+    height: 100%;
+    padding: 50px;
+    overflow-y: scroll;
+}
+
+.admin-wrapper .admin-content .button-group {
+    margin-bottom: 30px;
+}
+
+.admin-wrapper .admin-content .button-group a {
+    margin-right: 5px;
+}
+
+.admin-wrapper .admin-content .content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.admin-wrapper .admin-content .content .page-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-wrapper .admin-content .content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1em;
+}
+
+.admin-wrapper .admin-content .content table th,
+.admin-wrapper .admin-content .content table td {
+    padding: 10px;
+    border-bottom: 1px solid #eaeded;
+    text-align: left;
+}
+
+.admin-wrapper .admin-content .content table .edit {
+    color: green;
+}
+
+.admin-wrapper .admin-content .content table .delete {
+    color: red;
+}
+
+.admin-wrapper .admin-content .content table .publish {
+    color: blue;
+}
